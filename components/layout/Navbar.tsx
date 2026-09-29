@@ -36,7 +36,7 @@ export function Navbar({ variant = "hero" }: NavbarProps) {
           aria-label="Main navigation"
         >
           {/* Logo */}
-          <ByteSpaceLogo variant={isHero ? "light" : "dark"} />
+          <ByteSpaceLogo src="/icons/logo.svg" variant={isHero ? "light" : "dark"} />
 
           {/* Desktop Nav Links */}
           <ul className="hidden md:flex items-center gap-8">
